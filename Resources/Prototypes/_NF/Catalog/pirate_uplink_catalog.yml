@@ -21,7 +21,7 @@
   productEntity: ClothingOuterHardsuitPirateCap
   icon: { sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi, state: icon }
   cost:
-    Doubloon: 3
+    Doubloon: 7
   categories:
     - UplinkPirateHardsuits
   conditions:
@@ -31,7 +31,7 @@
           - PirateUplink
     - !type:BuyerJobCondition
       whitelist:
-        - PirateCaptain
+        - PirateFirstMate
 
 - type: listing
   id: UplinkPirateHardsuitElite
